@@ -26,16 +26,18 @@ This project uses computer vision and AI to detect the liquid level inside bottl
 
 ## 📁 Project Structure
 
+```plaintext
 smart_bottle_ai/
-├── data/ # Training data (underfill, correct, overfill)
-├── model/ # Place your AI model here
+├── data/                  # Training data (underfill, correct, overfill)
+├── model/                 # Place your AI model here
 ├── scripts/
-│ ├── infer_and_control.py # Main pipeline
-│ ├── db_logger.py # Logs to SQLite
-│ ├── plc_comm.py # Sends signal to PLC
-│ └── model_loader.py # Mock or real model loader
+│   ├── infer_and_control.py   # Main pipeline
+│   ├── db_logger.py           # Logs to SQLite
+│   ├── plc_comm.py            # Sends signal to PLC
+│   └── model_loader.py        # Mock or real model loader
 ├── utils/
-│ └── camera_utils.py # Camera capture
-├── requirements.txt
-├── app_config.yaml
-└── README.md
+│   └── camera_utils.py        # Camera capture utilities
+├── requirements.txt       # Python dependencies
+├── app_config.yaml        # Application configuration
+└── README.md              # Project documentation
+```
