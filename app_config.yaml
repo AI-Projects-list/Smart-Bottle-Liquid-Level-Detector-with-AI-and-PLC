@@ -1,0 +1,4 @@
+serial_port: /dev/ttyUSB0
+baud_rate: 9600
+model_path: ./model/best.pt
+database: ./inspection_results.db
